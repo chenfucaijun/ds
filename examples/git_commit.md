@@ -57,10 +57,13 @@
 
 * 如下图：
 ![Markdown](http://i2.buimg.com/576036/f9898fba13b484a6.png)
-* 注意：第一次提交的时候要配置你的邮箱和用户名
-  * 
-  ```git config --global user.name "chenfucaijun"```
-   ```git config --global user.email chenlei163mail@163.com```
+* 注意：第一次提交的时候要配置你的邮箱和用户名 
+
+  ```
+  git config --global user.name "chenfucaijun"
+   
+  git config --global user.email chenlei163mail@163.com
+  ```
    
   
 ## 7.pull request
