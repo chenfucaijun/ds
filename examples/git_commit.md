@@ -9,7 +9,7 @@
   * 进入[git官网下载](https://git-scm.com/downloads),选择对应系统版本下载
  ![Markdown](http://i2.buimg.com/576036/e80424e5ae6eaa9d.png)
 
-## 3.下使用Git
+## 3.使用Git
 * windows下找到安装后的Git（bash是Linxu的命令行终端，CMD是windows的命令行终端，GUI是图形化界面）
 ![Markdown](http://i2.buimg.com/576036/b0e48ba676baafcc.png)
 * 我选择的是Git Bash终端,它可以使用基本的Linux系统指令
@@ -27,8 +27,10 @@
 ![Markdown](http://i2.buimg.com/576036/91d27bf75ab2edbe.png)
 
 ## 5.进入到ds目录新建作业文件
-* 方法1："git bash"命令行进入ds目录，新建文件夹`2017-1/cfcj`,在其中新建程序文件,如下图：
+* 方法1：打开git bash命令行中进入ds目录，进入文件夹```cd  2017-1```,在其中新建文件夹（命名为姓名拼音首字母或英文昵称）```mkdir cfcj```,新建程序文件```touch 2-12.cpp```,如下图：
+
 > 常用linux命令介绍：
+> 
 > * cd 进入目录 cd ..返回上一级目录
 > * ls 查看当前目录有哪些文件
 > * mkdir 新建目录
@@ -38,13 +40,15 @@
 ![Markdown](http://i2.buimg.com/576036/633eeac7a4a2c815.png)
 * 如果你熟悉vim操作的话，你可以继续使用命令行进行文件编辑，如果不熟悉，你可以直接进入你的ds目录新建文件夹和文件，如方法2
 
-* 方法2：，`pwd`查看ds目录在哪里
+* 方法2：图形界面进入目录中,使用`pwd`查看ds目录在哪里
 ![Markdown](http://i4.buimg.com/576036/f7d4ea09ac945133.png)
   * 对应的windows目录就是在`C:\Users\Caijun\ds`
 ![Markdown](http://i4.buimg.com/576036/7729ef082bb7facd.png)
 
+
 ## 6.代码提交
 > 基本的git操作
+> 
 > * git status 查看仓库的状态
 > * git add 添加内容到暂存区
 > * git commit -m "the commit
@@ -62,16 +66,22 @@
 ## 7.pull request
 * 在CUCCS/ds中新建一个pull request
 ![Markdown](http://i2.buimg.com/576036/ccdd6b46adbcef3e.png)
+
 * 比对差异
 ![Markdown](http://i4.buimg.com/576036/18f1a903f14148c9.png)
+
 * 选择比对对象，base fork:你fork的自己的仓库，我的是chenfucaijun/ds
 ![Markdown](http://i4.buimg.com/576036/dff2e94384719266.png)
+
 * 选择比对对象，head fork:老师的仓库
 ![Markdown](http://i4.buimg.com/576036/3dc15d7d29388fb3.png)
+
 * 查看具体的代码差异
 ![Markdown](http://i4.buimg.com/576036/db311d3bcb3e0d80.png)
+
 * 确认无误，创建pull request
 ![Markdown](http://i2.buimg.com/576036/7630bdb46c01487a.png)
+
 * 填上一些信息后，就完成pull request了
 ![Markdown](http://i2.buimg.com/576036/7b0113a2dbc7d506.png)
 
