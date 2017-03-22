@@ -1,4 +1,4 @@
-# GitHub交作业流程
+# GitHub交作业流程 for windows
 ## 1.注册账号
  * 如果你还没有Github账号，请去[Github](https://github.com/)注册并登录
 
@@ -88,3 +88,7 @@
 * 填上一些信息后，就完成pull request了
 ![Markdown](http://i2.buimg.com/576036/7b0113a2dbc7d506.png)
 
+## 参考文献
+* [史上最浅显易懂的Git教程！](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)
+* [文科妹纸教你mac下使用git](https://www.zhihu.com/question/20070065)
+* [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
